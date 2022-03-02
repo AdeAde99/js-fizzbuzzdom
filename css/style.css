@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(192, 192, 192);
+}
+h1 {
+    text-align: center;
+}
+body div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.square {
+    border: 1px solid black;
+    text-align: center;
+    width: calc(100% / 10);
+    height: calc(100vh / 10);
+}
+
+.Fizz {
+    background-color: rgb(74, 146, 255);
+}
+
+.Buzz {
+    background-color: rgb(0, 141, 47);
+}
+
+.FizzBuzz {
+    background-color: rgb(148, 10, 0);
+}
+
+h1 {
+    display: block;
+}
