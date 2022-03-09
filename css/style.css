@@ -1,31 +1,40 @@
 body {
-    background-color: rgb(192, 192, 192);
+    background-color: #083b4c;
+    width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 h1 {
     text-align: center;
+    color: white;
+    font-size: 5em;
 }
 body div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 .square {
-    border: 1px solid black;
     text-align: center;
-    width: calc(100% / 10);
-    height: calc(100vh / 10);
+    width: 100px;
+    height: 100px;
+    background-color: #1389b2;
+    display: flex;
+    align-items: center;
 }
 
-.Fizz {
-    background-color: rgb(74, 146, 255);
+.fizz {
+    background-color: #0bd6a1;
 }
 
-.Buzz {
-    background-color: rgb(0, 141, 47);
+.buzz {
+    background-color: #ffd166;
 }
 
-.FizzBuzz {
-    background-color: rgb(148, 10, 0);
+.fizzbuzz {
+    background-color: #f0466f;
 }
 
 h1 {

@@ -6,14 +6,14 @@ for (let i = 1; i <=100; i++) {
     square.innerHTML = i;
 
     if (i % 5 == 0 && i % 3 == 0) {
-        square.classList.add('FizzBuzz');
-        square.innerHTML = 'FizzBuzz';
+        square.classList.add('fizzbuzz');
+        square.innerHTML = 'fizzbuzz';
     } else if (i % 5 == 0) {
-        square.classList.add('Buzz');
-        square.innerHTML = 'Buzz';
+        square.classList.add('buzz');
+        square.innerHTML = 'buzz';
     } else if (i % 3 == 0) {
-        square.classList.add('Fizz');
-        square.innerHTML = 'Fizz';
+        square.classList.add('fizz');
+        square.innerHTML = 'fizz';
     }
     
     container.append(square);
